@@ -1,6 +1,9 @@
 import './App.css'
 import Calculator from './components/Calculator'
-import { extendTheme } from '@chakra-ui/react'
+import { extendTheme, ChakraProvider } from '@chakra-ui/react'
+import ReactDOM from 'react-dom/client'
+import React from 'react'
+
 const theme = extendTheme({
   colors: {
     capri: '#00C0F9',
